@@ -1,0 +1,23 @@
+POST http://localhost:4000/api/auth
+Content-Type: application/json
+
+{
+  "email":"test1@test.com",
+  "password":"123456"
+}
+
+###
+POST http://localhost:4000/api/auth/new
+Content-Type: application/json
+
+{
+  "name":"Fernando Herrera",
+  "email":"test1@test.com",
+  "password":"123456"
+}
+
+###
+GET  http://localhost:4000/api/auth/renew
+x-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NDQwNDAwNDkzOWZkZmU0NjQ1NmRkZTEiLCJuYW1lIjoiUm9iZXJ0byBRdWludGVybyIsImlhdCI6MTY4MTkzNTAyMSwiZXhwIjoxNjgxOTQyMjIxfQ.YXUicF4JBPpCAcdUNwZexA_a8vIyVUVzEpkHdtvMUSY
+
+###

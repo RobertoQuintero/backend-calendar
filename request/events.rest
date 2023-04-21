@@ -1,0 +1,31 @@
+GET http://localhost:4000/api/events
+Content-Type: application/json
+x-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NDQwNDAwNDkzOWZkZmU0NjQ1NmRkZTEiLCJuYW1lIjoiUm9iZXJ0byBRdWludGVybyIsImlhdCI6MTY4MjAyMTYxNywiZXhwIjoxNjgyMDI4ODE3fQ.w1h06jm_lwe39Bl_WLeV1vIPW55dg1tEbcRvE-k8YLI
+
+###
+POST http://localhost:4000/api/events
+Content-Type: application/json
+x-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NDQwNDAwNDkzOWZkZmU0NjQ1NmRkZTEiLCJuYW1lIjoiUm9iZXJ0byBRdWludGVybyIsImlhdCI6MTY4MjAyMzc5NSwiZXhwIjoxNjgyMDMwOTk1fQ.kRbo3haLH-kcUAXwOa8Z5MN3T4Fg-_u2AEU5Vh2K1EY
+
+{
+  "title":"Terminar Proyecto",
+  "start":1,
+  "end":7000000,
+  "notes":"comenzar curso arduino"
+}
+###
+PUT http://localhost:4000/api/events/64419b9dafad49f4257d0771
+Content-Type: application/json
+x-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NDQwNDg2MzkxNjc3YjU3NmY5ZDkxZWMiLCJuYW1lIjoiRmVybmFuZG8gSGVycmVyYSIsImlhdCI6MTY4MjAyMzE4NCwiZXhwIjoxNjgyMDMwMzg0fQ.OENbCcWq4keqMBV4knehAacuOqM5IQYE_wbMiDQZyiM
+
+{
+  "title":"Proyecto de arduino",
+  "start":1,
+  "end":7000000,
+  "notes":"Comenzar con curso avanzado"
+}
+###
+DELETE http://localhost:4000/api/events/6441a594694b27801ffdc8f0
+Content-Type: application/json
+x-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NDQwNDg2MzkxNjc3YjU3NmY5ZDkxZWMiLCJuYW1lIjoiRmVybmFuZG8gSGVycmVyYSIsImlhdCI6MTY4MjAyMzg3OCwiZXhwIjoxNjgyMDMxMDc4fQ.pRPLzMgDytoRslES6akqhGdDu8Zvt_ivsatnAfj1d00
+###
